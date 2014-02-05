@@ -12,7 +12,7 @@ Using color captcha is very easy, just ```include('captcha.php')``` in script an
 
 After form submission ```$_SESSION['colorcaptcha']``` will be ```true``` if user picked up right color, otherwise it will be ```false```.
 
-JavasScript validation
+JavaScript validation
 --------------
 The value of hidden field with ```cc_clicked``` id, becames to ```true``` when user clicks on image.
 
